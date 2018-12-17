@@ -19,7 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "FPNetworking/Classes/*",
-  "public_header_files": "FPNetworking/Classes/**/*.h",
   "dependencies": {
     "AFNetworking": [
 

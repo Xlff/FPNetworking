@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "FPAPIBaseManager.h"
+#import "FPApiProxy.h"
+#import "FPNetworking.h"
+#import "FPNetworkingDefines.h"
+#import "FPURLResponse.h"
 
 FOUNDATION_EXPORT double FPNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char FPNetworkingVersionString[];
