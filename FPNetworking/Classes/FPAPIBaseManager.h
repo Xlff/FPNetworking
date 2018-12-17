@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 输出
 @property(nonatomic, weak) id<FPAPIManagerCallBackDelegate> _Nullable delegate;
-@property(nonatomic, weak) id<FPAPIManagerParamSouce> _Nullable paramSource;
+@property(nonatomic, weak) id<FPAPIManagerParamSource> _Nullable paramSource;
 @property(nonatomic, weak) id<FPAPIManagerValidator> _Nullable validator;
 @property(nonatomic, weak) NSObject<FPAPIManager> *_Nullable child; // 需要用到NSObject中的方法
 /// 拦截器

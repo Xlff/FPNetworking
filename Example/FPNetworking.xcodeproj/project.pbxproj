@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		47487F1909E0FB1C39E5114F /* Pods-FPNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPNetworking_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPNetworking_Tests/Pods-FPNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4BD1A3F099EFE703E7A406BA /* FPNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FPNetworking.podspec; path = ../FPNetworking.podspec; sourceTree = "<group>"; };
+		4BD1A3F099EFE703E7A406BA /* FPNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FPNetworking.podspec; path = ../FPNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5B517DED5D71BDB76C309765 /* Pods_FPNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FPNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };

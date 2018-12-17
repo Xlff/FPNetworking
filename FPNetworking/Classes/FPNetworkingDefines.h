@@ -128,7 +128,7 @@ extern NSString * _Nonnull const kFPApiProxyValidateResultKeyResponseString;
 
 @end
 
-@protocol FPAPIManagerParamSouce <NSObject>
+@protocol FPAPIManagerParamSource <NSObject>
 
 @required
 - (NSDictionary *_Nullable)paramsForApi:(FPAPIBaseManager *_Nonnull)manager;
