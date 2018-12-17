@@ -1,6 +1,6 @@
 {
   "name": "FPNetworking",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "基于AFNetworking 网络封装. 参考CTNetworking",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Xlff/FPNetworking",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/Xlff/FPNetworking.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FPNetworking/Classes/*",
+  "source_files": "FPNetworking/Classes/*.{h,m}",
   "dependencies": {
     "AFNetworking": [
 

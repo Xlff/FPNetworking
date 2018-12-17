@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FPNetworking'  # 项目名
-  s.version          = '0.1.1' # 版本号
+  s.version          = '0.1.2' # 版本号
   s.summary          = '基于AFNetworking 网络封装. 参考CTNetworking' #简述
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'FPNetworking/Classes/**/*.{h,m}'
+    s.source_files = 'FPNetworking/Classes/*'
   
   # s.resource_bundles = {
   #   'FPNetworking' => ['FPNetworking/Assets/*.png']
