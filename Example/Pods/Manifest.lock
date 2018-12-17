@@ -1,0 +1,16 @@
+PODS:
+  - FPNetworking (0.1.0)
+
+DEPENDENCIES:
+  - FPNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  FPNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FPNetworking: a0920a5c824a7cf0e7c84c500905f28586832c74
+
+PODFILE CHECKSUM: c45dc732fb8f8aa0e97465d8cf5c523393ad5ee9
+
+COCOAPODS: 1.5.3

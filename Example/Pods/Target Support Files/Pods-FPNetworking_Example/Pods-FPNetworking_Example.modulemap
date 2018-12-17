@@ -1,0 +1,6 @@
+framework module Pods_FPNetworking_Example {
+  umbrella header "Pods-FPNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

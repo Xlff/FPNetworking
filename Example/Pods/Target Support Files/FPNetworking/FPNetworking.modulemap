@@ -1,0 +1,6 @@
+framework module FPNetworking {
+  umbrella header "FPNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
