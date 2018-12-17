@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FPNetworking/Classes/*'
+  s.source_files = 'FPNetworking/*'
   
   # s.resource_bundles = {
   #   'FPNetworking' => ['FPNetworking/Assets/*.png']
   # }
 
-  s.public_header_files = 'FPNetworking/Classes/**/*.h'
+  s.public_header_files = 'FPNetworking/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AFNetworking'
 end

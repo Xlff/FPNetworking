@@ -1,7 +1,7 @@
 {
   "name": "FPNetworking",
   "version": "0.1.0",
-  "summary": "A short description of FPNetworking.",
+  "summary": "基于AFNetworking 网络封装. 参考CTNetworking",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Xlff/FPNetworking",
   "license": {
@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FPNetworking/Classes/**/*"
+  "source_files": "FPNetworking/Classes/*",
+  "public_header_files": "FPNetworking/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }
