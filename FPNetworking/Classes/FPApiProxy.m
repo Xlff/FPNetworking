@@ -58,7 +58,7 @@ NSString * const kFPApiProxyValidateResultKeyResponseString = @"kFPApiProxyValid
                                                                        NSNumber *requestId = @([dataTask taskIdentifier]);
                                                                        [self.dispatchTable removeObjectForKey:requestId];
                                                                        
-                                                                       NSDictionary *result = [request.service ilrequestWithResponseObject:responseObject
+                                                                       NSDictionary *result = [request.service requestWithResponseObject:responseObject
                                                                                                                                 response:response
                                                                                                                                  request:request
                                                                                                                                    error:error];

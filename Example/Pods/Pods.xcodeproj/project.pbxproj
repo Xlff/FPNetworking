@@ -21,13 +21,13 @@
 		3CC1558D8899A2E13A968D4C403CD793 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C8AE42D5A69E862E48EC78FF350078 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		402EB64C59857FE252DC98844643C420 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE85E1EB18AE94164507FF5D433CE6 /* UIButton+AFNetworking.m */; };
 		41FD4D0D6101210E26DDDCDD17FBB7C3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A23D5B238032195CA6F925D556B9F96 /* UIImageView+AFNetworking.m */; };
-		5359B40521C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5359B3FD21C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.m */; };
-		5359B40621C797FD00D2F059 /* NSObject+FPNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5359B3FE21C797FD00D2F059 /* NSObject+FPNetworkingMethods.m */; };
-		5359B40721C797FD00D2F059 /* NSObject+FPNetworkingMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B3FF21C797FD00D2F059 /* NSObject+FPNetworkingMethods.h */; };
-		5359B40821C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B40021C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.h */; };
-		5359B40921C797FD00D2F059 /* FPServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B40221C797FD00D2F059 /* FPServiceProtocol.h */; };
-		5359B40A21C797FD00D2F059 /* FPServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5359B40321C797FD00D2F059 /* FPServiceFactory.m */; };
-		5359B40B21C797FD00D2F059 /* FPServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B40421C797FD00D2F059 /* FPServiceFactory.h */; };
+		5359B40F21C79CCF00D2F059 /* FPServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B40C21C79CCE00D2F059 /* FPServiceFactory.h */; };
+		5359B41021C79CCF00D2F059 /* FPServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5359B40D21C79CCE00D2F059 /* FPServiceFactory.m */; };
+		5359B41121C79CCF00D2F059 /* FPServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B40E21C79CCF00D2F059 /* FPServiceProtocol.h */; };
+		5359B41621C79CE400D2F059 /* NSObject+FPNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5359B41221C79CE300D2F059 /* NSObject+FPNetworkingMethods.m */; };
+		5359B41721C79CE400D2F059 /* NSURLRequest+FPNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5359B41321C79CE300D2F059 /* NSURLRequest+FPNetworkingMethods.m */; };
+		5359B41821C79CE400D2F059 /* NSURLRequest+FPNetworkingMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B41421C79CE300D2F059 /* NSURLRequest+FPNetworkingMethods.h */; };
+		5359B41921C79CE400D2F059 /* NSObject+FPNetworkingMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359B41521C79CE300D2F059 /* NSObject+FPNetworkingMethods.h */; };
 		5901774D707725612F4966FBDE72E1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC285DDD62006D854EFB0ACA3E42D98 /* Foundation.framework */; };
 		5A4C39ACCE4CE7B6C69C736F48087759 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88013A13A80BA08140FC1D0FC17CAD /* AFHTTPSessionManager.m */; };
 		5B4AD12C43FF1155F7AE15D960011768 /* FPNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3D8743AE1E88F5B13806316CF6FD37 /* FPNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -139,13 +139,13 @@
 		3C50FA5C0F993E3E08573A2316C12961 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		443C446A800F6280C03E64AF14170EC0 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		4B58699BF5E7478AA2D9F516DABF28FF /* FPApiProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPApiProxy.h; path = FPNetworking/Classes/FPApiProxy.h; sourceTree = "<group>"; };
-		5359B3FD21C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+FPNetworkingMethods.m"; sourceTree = "<group>"; };
-		5359B3FE21C797FD00D2F059 /* NSObject+FPNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FPNetworkingMethods.m"; sourceTree = "<group>"; };
-		5359B3FF21C797FD00D2F059 /* NSObject+FPNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FPNetworkingMethods.h"; sourceTree = "<group>"; };
-		5359B40021C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+FPNetworkingMethods.h"; sourceTree = "<group>"; };
-		5359B40221C797FD00D2F059 /* FPServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPServiceProtocol.h; sourceTree = "<group>"; };
-		5359B40321C797FD00D2F059 /* FPServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPServiceFactory.m; sourceTree = "<group>"; };
-		5359B40421C797FD00D2F059 /* FPServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPServiceFactory.h; sourceTree = "<group>"; };
+		5359B40C21C79CCE00D2F059 /* FPServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPServiceFactory.h; path = FPNetworking/Classes/FPServiceFactory.h; sourceTree = "<group>"; };
+		5359B40D21C79CCE00D2F059 /* FPServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPServiceFactory.m; path = FPNetworking/Classes/FPServiceFactory.m; sourceTree = "<group>"; };
+		5359B40E21C79CCF00D2F059 /* FPServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPServiceProtocol.h; path = FPNetworking/Classes/FPServiceProtocol.h; sourceTree = "<group>"; };
+		5359B41221C79CE300D2F059 /* NSObject+FPNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FPNetworkingMethods.m"; path = "FPNetworking/Classes/NSObject+FPNetworkingMethods.m"; sourceTree = "<group>"; };
+		5359B41321C79CE300D2F059 /* NSURLRequest+FPNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+FPNetworkingMethods.m"; path = "FPNetworking/Classes/NSURLRequest+FPNetworkingMethods.m"; sourceTree = "<group>"; };
+		5359B41421C79CE300D2F059 /* NSURLRequest+FPNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+FPNetworkingMethods.h"; path = "FPNetworking/Classes/NSURLRequest+FPNetworkingMethods.h"; sourceTree = "<group>"; };
+		5359B41521C79CE300D2F059 /* NSObject+FPNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+FPNetworkingMethods.h"; path = "FPNetworking/Classes/NSObject+FPNetworkingMethods.h"; sourceTree = "<group>"; };
 		5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		559947ACFC2291BE83F8DEC005B7101D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		574DFC275E61EF945A423557796E1429 /* FPNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPNetworking.xcconfig; sourceTree = "<group>"; };
@@ -293,16 +293,21 @@
 		224171C4CC5C5ED222DA29692B0C1CE4 /* FPNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				5359B3FC21C797FD00D2F059 /* Categories */,
-				5359B40121C797FD00D2F059 /* Service */,
 				0C73A10B82A16BB716EFEC212BA4BF98 /* FPAPIBaseManager.h */,
 				3A0A9A95F14EA30296C3973D0EBCD56B /* FPAPIBaseManager.m */,
 				4B58699BF5E7478AA2D9F516DABF28FF /* FPApiProxy.h */,
 				6879ABB52049F74AB388A4666BDE3CAC /* FPApiProxy.m */,
 				77F0744B370CA81E9E60240A1003647E /* FPNetworking.h */,
 				A4FB47745CED773DF572D20C4CFF58ED /* FPNetworkingDefines.h */,
+				5359B40C21C79CCE00D2F059 /* FPServiceFactory.h */,
+				5359B40D21C79CCE00D2F059 /* FPServiceFactory.m */,
+				5359B40E21C79CCF00D2F059 /* FPServiceProtocol.h */,
 				D68C302FE6C1B4BFA4F81DC172141ECF /* FPURLResponse.h */,
 				1FF20290CB7FBFAEC4EF9FFF9E771C08 /* FPURLResponse.m */,
+				5359B41521C79CE300D2F059 /* NSObject+FPNetworkingMethods.h */,
+				5359B41221C79CE300D2F059 /* NSObject+FPNetworkingMethods.m */,
+				5359B41421C79CE300D2F059 /* NSURLRequest+FPNetworkingMethods.h */,
+				5359B41321C79CE300D2F059 /* NSURLRequest+FPNetworkingMethods.m */,
 				BAAFD8337C42FC7AB9587F2C5DDD9585 /* Pod */,
 				A6B000E27A64013163D1A21CDA4817AB /* Support Files */,
 			);
@@ -340,29 +345,6 @@
 			);
 			name = "Pods-FPNetworking_Example";
 			path = "Target Support Files/Pods-FPNetworking_Example";
-			sourceTree = "<group>";
-		};
-		5359B3FC21C797FD00D2F059 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				5359B3FD21C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.m */,
-				5359B3FE21C797FD00D2F059 /* NSObject+FPNetworkingMethods.m */,
-				5359B3FF21C797FD00D2F059 /* NSObject+FPNetworkingMethods.h */,
-				5359B40021C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.h */,
-			);
-			name = Categories;
-			path = FPNetworking/Classes/Categories;
-			sourceTree = "<group>";
-		};
-		5359B40121C797FD00D2F059 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				5359B40221C797FD00D2F059 /* FPServiceProtocol.h */,
-				5359B40321C797FD00D2F059 /* FPServiceFactory.m */,
-				5359B40421C797FD00D2F059 /* FPServiceFactory.h */,
-			);
-			name = Service;
-			path = FPNetworking/Classes/Service;
 			sourceTree = "<group>";
 		};
 		641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */ = {
@@ -551,22 +533,22 @@
 			files = (
 				8AD9F8FE36978CB4348E402207950883 /* AFAutoPurgingImageCache.h in Headers */,
 				3CC1558D8899A2E13A968D4C403CD793 /* AFCompatibilityMacros.h in Headers */,
-				5359B40821C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.h in Headers */,
-				5359B40721C797FD00D2F059 /* NSObject+FPNetworkingMethods.h in Headers */,
 				6C7C6C542448137FC3B6CEA04386780C /* AFHTTPSessionManager.h in Headers */,
+				5359B40F21C79CCF00D2F059 /* FPServiceFactory.h in Headers */,
 				616166BD57B8707EC940068BF5E1AA0A /* AFImageDownloader.h in Headers */,
-				5359B40921C797FD00D2F059 /* FPServiceProtocol.h in Headers */,
 				FF12B4BE37652AC565ED618C106CFE10 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				88A52F2DE87FAAEF79B420CC9B6BDE80 /* AFNetworking-umbrella.h in Headers */,
 				9D380619079479C622272E2C77FCD289 /* AFNetworking.h in Headers */,
+				5359B41821C79CE400D2F059 /* NSURLRequest+FPNetworkingMethods.h in Headers */,
 				66340E06FB146280E83112B966E563C3 /* AFNetworkReachabilityManager.h in Headers */,
 				901790CB7729E8871AE5DE99E486792B /* AFSecurityPolicy.h in Headers */,
+				5359B41121C79CCF00D2F059 /* FPServiceProtocol.h in Headers */,
 				D491FD44351A11016A957CA81ABE0EC5 /* AFURLRequestSerialization.h in Headers */,
 				2E68973739E2AE713059A22F94238C60 /* AFURLResponseSerialization.h in Headers */,
 				FE66EF8D47514D23E7551E2C95C765D8 /* AFURLSessionManager.h in Headers */,
-				5359B40B21C797FD00D2F059 /* FPServiceFactory.h in Headers */,
 				D014A5430789C5F0FFCF490D53B22897 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				BEE7FD5C1C06AF3670E0FB75F996DDF7 /* UIButton+AFNetworking.h in Headers */,
+				5359B41921C79CE400D2F059 /* NSObject+FPNetworkingMethods.h in Headers */,
 				78F5D40D5B8E9FC40FB257953EA945BA /* UIImage+AFNetworking.h in Headers */,
 				F2D2FE3B9DB1610D8EFAB393A3412DB7 /* UIImageView+AFNetworking.h in Headers */,
 				A39E1924915C53C49E7220F72AD96BBB /* UIKit+AFNetworking.h in Headers */,
@@ -726,11 +708,10 @@
 				15F1AB626337FECD0B9CFAAD90FAC342 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				8826A0887EEE1A618FA3BA34989E05B5 /* AFNetworking-dummy.m in Sources */,
 				137A6E8841A2429C00CBFA701695197E /* AFNetworkReachabilityManager.m in Sources */,
-				5359B40621C797FD00D2F059 /* NSObject+FPNetworkingMethods.m in Sources */,
+				5359B41621C79CE400D2F059 /* NSObject+FPNetworkingMethods.m in Sources */,
 				63A7B518E880C7AACABCD20AFA247C8C /* AFSecurityPolicy.m in Sources */,
-				5359B40A21C797FD00D2F059 /* FPServiceFactory.m in Sources */,
-				5359B40521C797FD00D2F059 /* NSURLRequest+FPNetworkingMethods.m in Sources */,
 				CB3CA20E3732A095F5515E0621D8719C /* AFURLRequestSerialization.m in Sources */,
+				5359B41021C79CCF00D2F059 /* FPServiceFactory.m in Sources */,
 				11EAB2A17E2712DB04831AD0FFD6A5DB /* AFURLResponseSerialization.m in Sources */,
 				0D58399A6DC61099900309A4449F7891 /* AFURLSessionManager.m in Sources */,
 				CB3028664CA23A1480C18C7A86CFDAF4 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -739,6 +720,7 @@
 				DF74915F8F367134FA4277BE9A2F52DB /* UIProgressView+AFNetworking.m in Sources */,
 				00ED59EE2784CE922358E57E241A6C75 /* UIRefreshControl+AFNetworking.m in Sources */,
 				00E2C1092D2255BB25E45DF004D3E7E5 /* UIWebView+AFNetworking.m in Sources */,
+				5359B41721C79CE400D2F059 /* NSURLRequest+FPNetworkingMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

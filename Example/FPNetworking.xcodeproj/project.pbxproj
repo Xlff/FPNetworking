@@ -503,7 +503,7 @@
 				GCC_PREFIX_HEADER = "FPNetworking/FPNetworking-Prefix.pch";
 				INFOPLIST_FILE = "FPNetworking/FPNetworking-Info.plist";
 				MODULE_NAME = ExampleApp;
-				OTHER_LIBTOOLFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -519,7 +519,7 @@
 				GCC_PREFIX_HEADER = "FPNetworking/FPNetworking-Prefix.pch";
 				INFOPLIST_FILE = "FPNetworking/FPNetworking-Info.plist";
 				MODULE_NAME = ExampleApp;
-				OTHER_LIBTOOLFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FPNetworking'  # 项目名
-  s.version          = '0.1.2' # 版本号
+  s.version          = '0.2.0' # 版本号
   s.summary          = '基于AFNetworking 网络封装. 参考CTNetworking' #简述
 
 # This description is used to generate tags and improve search results.
